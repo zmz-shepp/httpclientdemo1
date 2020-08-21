@@ -1,0 +1,36 @@
+17:43:33  [INFO ] : 没有匹配到关键字
+17:43:33  [INFO ] : 没有匹配到关键字
+17:43:33  [ERROR] : 解析失败，请检查jsonPath表达式
+17:43:33  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:158) [classes/:?]
+	at Writer.ExclWriterTest.main(ExclWriterTest.java:69) [classes/:?]
+17:43:33  [INFO ] : 外部断言失败
+17:43:33  [INFO ] : 没有匹配到关键字
+17:43:33  [ERROR] : 解析失败，请检查jsonPath表达式
+17:43:33  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:158) [classes/:?]
+	at Writer.ExclWriterTest.main(ExclWriterTest.java:69) [classes/:?]
+17:43:33  [INFO ] : 外部断言失败
+17:43:33  [INFO ] : 没有匹配到关键字
+17:43:33  [ERROR] : 解析失败，请检查jsonPath表达式
+17:43:33  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:158) [classes/:?]
+	at Writer.ExclWriterTest.main(ExclWriterTest.java:69) [classes/:?]
+17:43:33  [INFO ] : 外部断言失败
+17:43:33  [INFO ] : 没有匹配到关键字
+17:43:33  [ERROR] : 解析失败，请检查jsonPath表达式
+17:43:33  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:158) [classes/:?]
+	at Writer.ExclWriterTest.main(ExclWriterTest.java:69) [classes/:?]
+17:43:33  [INFO ] : 外部断言失败
+17:43:33  [INFO ] : 没有匹配到关键字
+17:43:33  [ERROR] : 解析失败，请检查jsonPath表达式
+17:43:33  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:158) [classes/:?]
+	at Writer.ExclWriterTest.main(ExclWriterTest.java:69) [classes/:?]
+17:43:33  [INFO ] : 外部断言失败

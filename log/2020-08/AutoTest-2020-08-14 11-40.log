@@ -1,0 +1,5 @@
+11:40:00  [ERROR] : 解析失败，请检查jsonPath表达式
+11:40:00  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:158) [classes/:?]
+	at MialTest.Mail_WriterTest.main(Mail_WriterTest.java:69) [classes/:?]

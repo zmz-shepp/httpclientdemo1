@@ -1,0 +1,39 @@
+16:52:51  [INFO ] : 没有匹配到关键字
+16:52:51  [INFO ] : 没有匹配到关键字
+16:52:51  [INFO ] : 没有匹配到关键字
+16:52:51  [ERROR] : 解析失败，请检查jsonPath表达式
+16:52:51  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:158) [classes/:?]
+	at Reader.ExclReaderTest.main(ExclReaderTest.java:39) [classes/:?]
+16:52:51  [INFO ] : 外部断言失败
+16:52:51  [INFO ] : 没有匹配到关键字
+16:52:51  [INFO ] : 没有匹配到关键字
+16:52:51  [ERROR] : 解析失败，请检查jsonPath表达式
+16:52:51  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:158) [classes/:?]
+	at Reader.ExclReaderTest.main(ExclReaderTest.java:39) [classes/:?]
+16:52:51  [INFO ] : 外部断言失败
+16:52:51  [INFO ] : 没有匹配到关键字
+16:52:51  [ERROR] : 解析失败，请检查jsonPath表达式
+16:52:51  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:158) [classes/:?]
+	at Reader.ExclReaderTest.main(ExclReaderTest.java:39) [classes/:?]
+16:52:51  [INFO ] : 外部断言失败
+16:52:51  [INFO ] : 没有匹配到关键字
+16:52:51  [ERROR] : 解析失败，请检查jsonPath表达式
+16:52:51  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:158) [classes/:?]
+	at Reader.ExclReaderTest.main(ExclReaderTest.java:39) [classes/:?]
+16:52:51  [INFO ] : 外部断言失败
+16:52:51  [INFO ] : 没有匹配到关键字
+16:52:51  [INFO ] : 没有匹配到关键字
+16:52:51  [ERROR] : 解析失败，请检查jsonPath表达式
+16:52:51  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:158) [classes/:?]
+	at Reader.ExclReaderTest.main(ExclReaderTest.java:39) [classes/:?]
+16:52:51  [INFO ] : 外部断言失败

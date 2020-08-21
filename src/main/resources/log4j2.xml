@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="OFF">
+	<!-- properties元素中可以指定在xml里面使用的变量。在其它位置可以使用${}来调用设定的参数。 -->
+	<properties>
+		<property name="LOG_HOME">log</property>
+		<property name="FILE_NAME">AutoTest</property>
+	</properties>
+	<appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%d{HH:mm:ss}  [%-5level] : %msg%n" />
+		</Console>
+		<RollingRandomAccessFile name="MyFile"
+			fileName="${LOG_HOME}/${FILE_NAME}.log"
+			filePattern="${LOG_HOME}/$${date:yyyy-MM}/${FILE_NAME}-%d{yyyy-MM-dd HH-mm}.log"
+			>
+			<PatternLayout
+				pattern="%d{HH:mm:ss}  [%-5level] : %msg%n" />
+			<Policies>
+			<!-- 设置超过多长时间进行日志备份 -->
+				<TimeBasedTriggeringPolicy interval="1" />
+				<SizeBasedTriggeringPolicy size="10 MB" />
+			</Policies>
+		</RollingRandomAccessFile>
+	</appenders>
+
+	<loggers>
+		<!-- 日志记录的等级 -->
+		<root level="info">
+		<!-- 引入配置好的console和文件输出 -->
+			<appender-ref ref="Console" />
+			<appender-ref ref="MyFile"></appender-ref>
+		</root>
+	</loggers>
+</configuration>  

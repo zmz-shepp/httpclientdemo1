@@ -1,0 +1,19 @@
+17:30:14  [INFO ] : 没有匹配到关键字
+17:30:15  [INFO ] : 在keyword中调试输出返回的结果是{"resultcode":"200","reason":"Return Successd!","result":{"province":"上海","city":"上海","areacode":"021","zip":"200000","company":"电信","card":""},"error_code":0}
+17:30:15  [INFO ] : 测试通过！
+17:30:15  [INFO ] : 外部断言通过
+17:30:15  [INFO ] : 在keyword中调试输出返回的结果是{"reason":"接口地址不存在","result":null,"error_code":10022}
+
+17:30:15  [INFO ] : 测试失败！
+17:30:15  [INFO ] : 外部断言失败
+17:30:15  [INFO ] : 在keyword中调试输出返回的结果是{"reason":"接口地址不存在","result":null,"error_code":10022}
+
+17:30:15  [INFO ] : 测试失败！
+17:30:15  [INFO ] : 外部断言失败
+17:30:15  [INFO ] : 在keyword中调试输出返回的结果是{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
+17:30:15  [INFO ] : 测试通过！
+17:30:15  [INFO ] : 外部断言通过
+17:30:15  [INFO ] : 在keyword中调试输出返回的结果是{"reason":"接口地址不存在","result":null,"error_code":10022}
+
+17:30:15  [INFO ] : 测试失败！
+17:30:15  [INFO ] : 外部断言失败

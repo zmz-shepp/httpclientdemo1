@@ -1,0 +1,164 @@
+11:29:30  [INFO ] : 没有匹配到关键字
+11:29:30  [INFO ] : 没有匹配到关键字
+11:29:31  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"d4f3edb2681e4cce8a99481618c04fde"}
+11:29:31  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"6bd0f5cad0714970a2a25ad8af0b074e"}
+11:29:31  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"60f34adc4e2e4944b2860663cb7cb253"}
+11:29:31  [INFO ] : 没有匹配到关键字
+11:29:31  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"69dfeb36889a4b79bd2ff352443236be"}
+11:29:31  [INFO ] : 在keyword中调试输出返回的结果是{"status":201,"msg":"success"}
+11:29:31  [INFO ] : 没有匹配到关键字
+11:29:31  [INFO ] : 没有匹配到关键字
+11:29:31  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+11:29:31  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+11:29:31  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+11:29:31  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+11:29:31  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"3bd300aa24494b2982cfce8e676d2f81"}
+11:29:32  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1"}
+11:29:32  [INFO ] : 在keyword中调试输出返回的结果是{"status":406,"msg":"用户已经在别处登录"}
+11:29:32  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+11:29:32  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"f2d615d0bebd46d9aab32f40f6cc3878"}
+11:29:32  [INFO ] : 在keyword中调试输出返回的结果是<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:59)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+11:29:32  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+11:29:32  [INFO ] : 在keyword中调试输出返回的结果是<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:59)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+11:29:32  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1201"}
+11:29:32  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1206"}
+11:29:32  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+11:29:32  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+11:29:32  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"893"}
+11:29:32  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+11:29:32  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+11:29:32  [INFO ] : 在keyword中调试输出返回的结果是<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:58)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+11:29:32  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+11:29:32  [INFO ] : 在keyword中调试输出返回的结果是<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:58)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+11:29:32  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+11:29:32  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+11:29:32  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+11:29:33  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+11:29:33  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+11:29:33  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+11:29:33  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+11:29:33  [INFO ] : 在keyword中调试输出返回的结果是<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:58)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+11:29:33  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1"}
+11:29:33  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+11:29:33  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"f8607631c5ef4b03b12635493ca3469d"}
+11:29:33  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+11:29:33  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+11:29:33  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+11:29:33  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1"}
+11:29:33  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+11:29:33  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"d89d07a2f81242e086b33d17edc7b235"}
+11:29:33  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+11:29:33  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+11:29:33  [INFO ] : 没有匹配到关键字
+11:29:33  [INFO ] : 没有匹配到关键字
+11:29:33  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+11:29:33  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+11:29:33  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+11:29:34  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+11:29:34  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"fee6d7c697e24a6ca2a0cb415e97ff79"}
+11:29:34  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+11:29:34  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1"}
+11:29:34  [INFO ] : 在keyword中调试输出返回的结果是{"status":406,"msg":"登录状态，不能注册"}
+11:29:34  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+11:29:34  [INFO ] : 没有匹配到关键字
+11:29:34  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"30b9e631107246b5a860e11215ce7e41"}
+11:29:34  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+11:29:34  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+11:29:34  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+11:29:34  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+11:29:34  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+11:29:34  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1206"}
+11:29:34  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+11:29:34  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"426d7ab023a84d36b25e19b379cd86bb"}
+11:29:34  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+11:29:34  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+11:29:34  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+11:29:34  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+11:29:35  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+11:29:35  [INFO ] : 没有匹配到关键字
+11:29:35  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"7dc8864e525440d198f7aae5d346536e"}
+11:29:35  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+11:29:35  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+11:29:35  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+11:29:35  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+11:29:35  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+11:29:35  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1458"}
+11:29:35  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+11:29:35  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"18113ee62b884796aa42e4a41925df02"}
+11:29:35  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+11:29:35  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+11:29:35  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+11:29:35  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+11:29:35  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+11:29:35  [INFO ] : 没有匹配到关键字
+11:29:35  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"ed91b004457e493eb2862fc2e103a6e5"}
+11:29:35  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+11:29:35  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+11:29:35  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+11:29:35  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+11:29:35  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+11:29:36  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1459"}
+11:29:36  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+11:29:36  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"c9267ed000f24abb8888fb6e9118ce4a"}
+11:29:36  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+11:29:36  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+11:29:36  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+11:29:36  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+11:29:36  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+11:29:36  [INFO ] : 没有匹配到关键字
+11:29:36  [INFO ] : 没有匹配到关键字
+11:29:36  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+11:29:36  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+11:29:36  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+11:29:36  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+11:29:36  [INFO ] : 没有匹配到关键字
+11:29:36  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"dfa3b5a354c84a748e3f1c14c1642c3d"}
+11:29:36  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+11:29:36  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"5437fb610b604b78afffbf0bf7f11c23"}
+11:29:36  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1"}
+11:29:36  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+11:29:36  [INFO ] : 没有匹配到关键字
+11:29:36  [INFO ] : 没有匹配到关键字
+11:29:36  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"88e008360d5d4c08aeeb6a7e88c65693"}
+11:29:36  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+11:29:36  [INFO ] : 没有匹配到关键字
+11:29:37  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1407"}
+11:29:37  [INFO ] : 没有匹配到关键字
+11:29:37  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"查询成功","nickname":"测试账号","id":"1407","describe":"这个账号，是一个测试注册的账号"}
+11:29:37  [INFO ] : 没有匹配到关键字
+11:29:37  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}

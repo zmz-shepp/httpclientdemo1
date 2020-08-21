@@ -1,0 +1,57 @@
+18:07:08  [INFO ] : 没有匹配到关键字
+18:07:08  [INFO ] : 在keyword中调试输出返回的结果是{"resultcode":"200","reason":"Return Successd!","result":{"province":"上海","city":"上海","areacode":"021","zip":"200000","company":"电信","card":""},"error_code":0}
+18:07:08  [INFO ] : 测试通过！
+18:07:08  [INFO ] : 外部断言通过
+18:07:08  [INFO ] : 在keyword中调试输出返回的结果是<html>
+<head><title>403 Forbidden</title></head>
+<body bgcolor="white">
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+18:07:08  [ERROR] : 解析失败，请检查jsonPath表达式
+18:07:08  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<html>
+<head><title>403 Forbidden</title></head>
+<body bgcolor="white">
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<html>
+<head><title>403 Forbidden</title></head>
+<body bgcolor="white">
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:158) [classes/:?]
+	at Writer.ExclWriterTest.main(ExclWriterTest.java:57) [classes/:?]
+18:07:08  [INFO ] : 外部断言失败
+18:07:09  [INFO ] : 在keyword中调试输出返回的结果是{"resultcode":"201","reason":"The phone number can not be empty!","result":null,"error_code":201101}
+18:07:09  [INFO ] : 测试通过！
+18:07:09  [INFO ] : 外部断言通过
+18:07:09  [INFO ] : 在keyword中调试输出返回的结果是{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
+18:07:09  [INFO ] : 测试通过！
+18:07:09  [INFO ] : 外部断言通过
+18:07:09  [INFO ] : 在keyword中调试输出返回的结果是{"resultcode":"101","reason":"错误的请求KEY","result":null,"error_code":10001}
+18:07:09  [INFO ] : 测试通过！
+18:07:09  [INFO ] : 外部断言通过
+18:07:53  [INFO ] : 没有匹配到关键字
+18:07:54  [INFO ] : 在keyword中调试输出返回的结果是{"resultcode":"200","reason":"Return Successd!","result":{"province":"上海","city":"上海","areacode":"021","zip":"200000","company":"电信","card":""},"error_code":0}
+18:07:54  [INFO ] : 测试通过！
+18:07:54  [INFO ] : 外部断言通过
+18:07:54  [INFO ] : 在keyword中调试输出返回的结果是{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
+18:07:54  [INFO ] : 测试通过！
+18:07:54  [INFO ] : 外部断言通过
+18:07:54  [INFO ] : 在keyword中调试输出返回的结果是{"resultcode":"201","reason":"The phone number can not be empty!","result":null,"error_code":201101}
+18:07:54  [INFO ] : 测试通过！
+18:07:54  [INFO ] : 外部断言通过
+18:07:54  [INFO ] : 在keyword中调试输出返回的结果是{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
+18:07:54  [INFO ] : 测试通过！
+18:07:54  [INFO ] : 外部断言通过
+18:07:54  [INFO ] : 在keyword中调试输出返回的结果是{"resultcode":"101","reason":"错误的请求KEY","result":null,"error_code":10001}
+18:07:54  [INFO ] : 测试通过！
+18:07:54  [INFO ] : 外部断言通过

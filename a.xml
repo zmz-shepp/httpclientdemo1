@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="All Test Suite"><test verbose="2" preserve-order="true" name="E:/httpclientdemo">
+    <classes>
+        <class name="MialTest.a"></class>
+
+    </classes>
+</test>
+
+
+
+    <test name="test2">
+        <classes>
+            <class name="MialTest.c"></class>
+        </classes>
+    </test>
+
+
+</suite>

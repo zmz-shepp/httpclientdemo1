@@ -1,0 +1,259 @@
+17:03:28  [INFO ] : 没有匹配到关键字
+17:03:28  [INFO ] : 没有匹配到关键字
+17:03:28  [DEBUG] : CookieSpec selected: default
+17:03:28  [DEBUG] : Auth cache not set in the context
+17:03:28  [DEBUG] : Connection request: [route: {}->http://apis.juhe.cn:80][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+17:03:28  [DEBUG] : Connection leased: [id: 0][route: {}->http://apis.juhe.cn:80][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+17:03:28  [DEBUG] : Opening connection {}->http://apis.juhe.cn:80
+17:03:28  [DEBUG] : Connecting to apis.juhe.cn/116.211.169.230:80
+17:03:28  [DEBUG] : Connection established 192.168.100.116:63795<->116.211.169.230:80
+17:03:28  [DEBUG] : http-outgoing-0: set socket timeout to 15000
+17:03:28  [DEBUG] : Executing request GET /mobile/get?phone=1530075&key=b2ca8966a54fd475e4b474fa0e7c154c HTTP/1.1
+17:03:28  [DEBUG] : Target auth state: UNCHALLENGED
+17:03:28  [DEBUG] : Proxy auth state: UNCHALLENGED
+17:03:28  [DEBUG] : http-outgoing-0 >> GET /mobile/get?phone=1530075&key=b2ca8966a54fd475e4b474fa0e7c154c HTTP/1.1
+17:03:28  [DEBUG] : http-outgoing-0 >> Host: apis.juhe.cn
+17:03:28  [DEBUG] : http-outgoing-0 >> Connection: Keep-Alive
+17:03:28  [DEBUG] : http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_181)
+17:03:28  [DEBUG] : http-outgoing-0 >> Accept-Encoding: gzip,deflate
+17:03:28  [DEBUG] : http-outgoing-0 >> "GET /mobile/get?phone=1530075&key=b2ca8966a54fd475e4b474fa0e7c154c HTTP/1.1[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-0 >> "Host: apis.juhe.cn[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_181)[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-0 >> "[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-0 << "Date: Tue, 11 Aug 2020 09:03:28 GMT[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-0 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-0 << "Set-Cookie: aliyungf_tc=AQAAAN87k0SEagAAI8intK75jPn8ABWo; Path=/; HttpOnly[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-0 << "Etag: 3af2b8bbb189b4c22cd9a06e6edd0255[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-0 << "[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-0 << "ab[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-0 << "{"resultcode":"200","reason":"Return Successd!","result":{"province":"[0xe4][0xb8][0x8a][0xe6][0xb5][0xb7]","city":"[0xe4][0xb8][0x8a][0xe6][0xb5][0xb7]","areacode":"021","zip":"200000","company":"[0xe7][0x94][0xb5][0xe4][0xbf][0xa1]","card":""},"error_code":0}[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-0 << "0[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-0 << "[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-0 << HTTP/1.1 200 OK
+17:03:28  [DEBUG] : http-outgoing-0 << Date: Tue, 11 Aug 2020 09:03:28 GMT
+17:03:28  [DEBUG] : http-outgoing-0 << Content-Type: application/json;charset=utf-8
+17:03:28  [DEBUG] : http-outgoing-0 << Transfer-Encoding: chunked
+17:03:28  [DEBUG] : http-outgoing-0 << Connection: keep-alive
+17:03:28  [DEBUG] : http-outgoing-0 << Set-Cookie: aliyungf_tc=AQAAAN87k0SEagAAI8intK75jPn8ABWo; Path=/; HttpOnly
+17:03:28  [DEBUG] : http-outgoing-0 << Etag: 3af2b8bbb189b4c22cd9a06e6edd0255
+17:03:28  [DEBUG] : Connection can be kept alive indefinitely
+17:03:28  [DEBUG] : Cookie accepted [aliyungf_tc="AQAAAN87k0SEagAAI8intK75jPn8ABWo", version:0, domain:apis.juhe.cn, path:/, expiry:null]
+17:03:28  [DEBUG] : Connection [id: 0][route: {}->http://apis.juhe.cn:80] can be kept alive indefinitely
+17:03:28  [DEBUG] : http-outgoing-0: set socket timeout to 0
+17:03:28  [DEBUG] : Connection released: [id: 0][route: {}->http://apis.juhe.cn:80][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+17:03:28  [DEBUG] : Connection manager is shutting down
+17:03:28  [DEBUG] : http-outgoing-0: Close connection
+17:03:28  [DEBUG] : Connection manager shut down
+17:03:28  [INFO ] : 测试通过！
+17:03:28  [INFO ] : 外部断言通过
+17:03:28  [INFO ] : 没有匹配到关键字
+17:03:28  [DEBUG] : CookieSpec selected: default
+17:03:28  [DEBUG] : Cookie [version: 0][name: aliyungf_tc][value: AQAAAN87k0SEagAAI8intK75jPn8ABWo][domain: apis.juhe.cn][path: /][expiry: null] match [apis.juhe.cn:80/mobile/get]
+17:03:28  [DEBUG] : Auth cache not set in the context
+17:03:28  [DEBUG] : Connection request: [route: {}->http://apis.juhe.cn:80][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+17:03:28  [DEBUG] : Connection leased: [id: 1][route: {}->http://apis.juhe.cn:80][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+17:03:28  [DEBUG] : Opening connection {}->http://apis.juhe.cn:80
+17:03:28  [DEBUG] : Connecting to apis.juhe.cn/116.211.169.230:80
+17:03:28  [DEBUG] : Connection established 192.168.100.116:63796<->116.211.169.230:80
+17:03:28  [DEBUG] : http-outgoing-1: set socket timeout to 15000
+17:03:28  [DEBUG] : Executing request GET /mobile/get?phone=153007&key=b2ca8966a54fd475e4b474fa0e7c154c HTTP/1.1
+17:03:28  [DEBUG] : Target auth state: UNCHALLENGED
+17:03:28  [DEBUG] : Proxy auth state: UNCHALLENGED
+17:03:28  [DEBUG] : http-outgoing-1 >> GET /mobile/get?phone=153007&key=b2ca8966a54fd475e4b474fa0e7c154c HTTP/1.1
+17:03:28  [DEBUG] : http-outgoing-1 >> Host: apis.juhe.cn
+17:03:28  [DEBUG] : http-outgoing-1 >> Connection: Keep-Alive
+17:03:28  [DEBUG] : http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_181)
+17:03:28  [DEBUG] : http-outgoing-1 >> Cookie: aliyungf_tc=AQAAAN87k0SEagAAI8intK75jPn8ABWo
+17:03:28  [DEBUG] : http-outgoing-1 >> Accept-Encoding: gzip,deflate
+17:03:28  [DEBUG] : http-outgoing-1 >> "GET /mobile/get?phone=153007&key=b2ca8966a54fd475e4b474fa0e7c154c HTTP/1.1[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-1 >> "Host: apis.juhe.cn[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_181)[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-1 >> "Cookie: aliyungf_tc=AQAAAN87k0SEagAAI8intK75jPn8ABWo[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-1 >> "[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-1 << "Date: Tue, 11 Aug 2020 09:03:28 GMT[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-1 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-1 << "Transfer-Encoding: chunked[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-1 << "Etag: 61af8c7934fd5398f3e724e3b67bf0d0[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-1 << "[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-1 << "55[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-1 << "{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-1 << "0[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-1 << "[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-1 << HTTP/1.1 200 OK
+17:03:28  [DEBUG] : http-outgoing-1 << Date: Tue, 11 Aug 2020 09:03:28 GMT
+17:03:28  [DEBUG] : http-outgoing-1 << Content-Type: application/json;charset=utf-8
+17:03:28  [DEBUG] : http-outgoing-1 << Transfer-Encoding: chunked
+17:03:28  [DEBUG] : http-outgoing-1 << Connection: keep-alive
+17:03:28  [DEBUG] : http-outgoing-1 << Etag: 61af8c7934fd5398f3e724e3b67bf0d0
+17:03:28  [DEBUG] : Connection can be kept alive indefinitely
+17:03:28  [DEBUG] : Connection [id: 1][route: {}->http://apis.juhe.cn:80] can be kept alive indefinitely
+17:03:28  [DEBUG] : http-outgoing-1: set socket timeout to 0
+17:03:28  [DEBUG] : Connection released: [id: 1][route: {}->http://apis.juhe.cn:80][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+17:03:28  [DEBUG] : Connection manager is shutting down
+17:03:28  [DEBUG] : http-outgoing-1: Close connection
+17:03:28  [DEBUG] : Connection manager shut down
+17:03:28  [INFO ] : 测试通过！
+17:03:28  [INFO ] : 外部断言通过
+17:03:28  [DEBUG] : CookieSpec selected: default
+17:03:28  [DEBUG] : Cookie [version: 0][name: aliyungf_tc][value: AQAAAN87k0SEagAAI8intK75jPn8ABWo][domain: apis.juhe.cn][path: /][expiry: null] match [apis.juhe.cn:80/mobile/get]
+17:03:28  [DEBUG] : Auth cache not set in the context
+17:03:28  [DEBUG] : Connection request: [route: {}->http://apis.juhe.cn:80][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+17:03:28  [DEBUG] : Connection leased: [id: 2][route: {}->http://apis.juhe.cn:80][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+17:03:28  [DEBUG] : Opening connection {}->http://apis.juhe.cn:80
+17:03:28  [DEBUG] : Connecting to apis.juhe.cn/116.211.169.230:80
+17:03:28  [DEBUG] : Connection established 192.168.100.116:63797<->116.211.169.230:80
+17:03:28  [DEBUG] : http-outgoing-2: set socket timeout to 15000
+17:03:28  [DEBUG] : Executing request GET /mobile/get?phone=&key=b2ca8966a54fd475e4b474fa0e7c154c HTTP/1.1
+17:03:28  [DEBUG] : Target auth state: UNCHALLENGED
+17:03:28  [DEBUG] : Proxy auth state: UNCHALLENGED
+17:03:28  [DEBUG] : http-outgoing-2 >> GET /mobile/get?phone=&key=b2ca8966a54fd475e4b474fa0e7c154c HTTP/1.1
+17:03:28  [DEBUG] : http-outgoing-2 >> Host: apis.juhe.cn
+17:03:28  [DEBUG] : http-outgoing-2 >> Connection: Keep-Alive
+17:03:28  [DEBUG] : http-outgoing-2 >> User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_181)
+17:03:28  [DEBUG] : http-outgoing-2 >> Cookie: aliyungf_tc=AQAAAN87k0SEagAAI8intK75jPn8ABWo
+17:03:28  [DEBUG] : http-outgoing-2 >> Accept-Encoding: gzip,deflate
+17:03:28  [DEBUG] : http-outgoing-2 >> "GET /mobile/get?phone=&key=b2ca8966a54fd475e4b474fa0e7c154c HTTP/1.1[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-2 >> "Host: apis.juhe.cn[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_181)[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-2 >> "Cookie: aliyungf_tc=AQAAAN87k0SEagAAI8intK75jPn8ABWo[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-2 >> "[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-2 << "Date: Tue, 11 Aug 2020 09:03:28 GMT[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-2 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-2 << "Transfer-Encoding: chunked[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-2 << "Connection: keep-alive[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-2 << "Etag: 3af2b8bbb189b4c22cd9a06e6edd0255[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-2 << "[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-2 << "64[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-2 << "{"resultcode":"201","reason":"The phone number can not be empty!","result":null,"error_code":201101}[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-2 << HTTP/1.1 200 OK
+17:03:28  [DEBUG] : http-outgoing-2 << Date: Tue, 11 Aug 2020 09:03:28 GMT
+17:03:28  [DEBUG] : http-outgoing-2 << Content-Type: application/json;charset=utf-8
+17:03:28  [DEBUG] : http-outgoing-2 << Transfer-Encoding: chunked
+17:03:28  [DEBUG] : http-outgoing-2 << Connection: keep-alive
+17:03:28  [DEBUG] : http-outgoing-2 << Etag: 3af2b8bbb189b4c22cd9a06e6edd0255
+17:03:28  [DEBUG] : Connection can be kept alive indefinitely
+17:03:28  [DEBUG] : http-outgoing-2 << "0[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-2 << "[\r][\n]"
+17:03:28  [DEBUG] : Connection [id: 2][route: {}->http://apis.juhe.cn:80] can be kept alive indefinitely
+17:03:28  [DEBUG] : http-outgoing-2: set socket timeout to 0
+17:03:28  [DEBUG] : Connection released: [id: 2][route: {}->http://apis.juhe.cn:80][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+17:03:28  [DEBUG] : Connection manager is shutting down
+17:03:28  [DEBUG] : http-outgoing-2: Close connection
+17:03:28  [DEBUG] : Connection manager shut down
+17:03:28  [INFO ] : 测试通过！
+17:03:28  [INFO ] : 外部断言通过
+17:03:28  [DEBUG] : CookieSpec selected: default
+17:03:28  [DEBUG] : Cookie [version: 0][name: aliyungf_tc][value: AQAAAN87k0SEagAAI8intK75jPn8ABWo][domain: apis.juhe.cn][path: /][expiry: null] match [apis.juhe.cn:80/mobile/get]
+17:03:28  [DEBUG] : Auth cache not set in the context
+17:03:28  [DEBUG] : Connection request: [route: {}->http://apis.juhe.cn:80][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+17:03:28  [DEBUG] : Connection leased: [id: 3][route: {}->http://apis.juhe.cn:80][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+17:03:28  [DEBUG] : Opening connection {}->http://apis.juhe.cn:80
+17:03:28  [DEBUG] : Connecting to apis.juhe.cn/116.211.169.230:80
+17:03:28  [DEBUG] : Connection established 192.168.100.116:63798<->116.211.169.230:80
+17:03:28  [DEBUG] : http-outgoing-3: set socket timeout to 15000
+17:03:28  [DEBUG] : Executing request GET /mobile/get?phone=*******&key=b2ca8966a54fd475e4b474fa0e7c154c HTTP/1.1
+17:03:28  [DEBUG] : Target auth state: UNCHALLENGED
+17:03:28  [DEBUG] : Proxy auth state: UNCHALLENGED
+17:03:28  [DEBUG] : http-outgoing-3 >> GET /mobile/get?phone=*******&key=b2ca8966a54fd475e4b474fa0e7c154c HTTP/1.1
+17:03:28  [DEBUG] : http-outgoing-3 >> Host: apis.juhe.cn
+17:03:28  [DEBUG] : http-outgoing-3 >> Connection: Keep-Alive
+17:03:28  [DEBUG] : http-outgoing-3 >> User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_181)
+17:03:28  [DEBUG] : http-outgoing-3 >> Cookie: aliyungf_tc=AQAAAN87k0SEagAAI8intK75jPn8ABWo
+17:03:28  [DEBUG] : http-outgoing-3 >> Accept-Encoding: gzip,deflate
+17:03:28  [DEBUG] : http-outgoing-3 >> "GET /mobile/get?phone=*******&key=b2ca8966a54fd475e4b474fa0e7c154c HTTP/1.1[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-3 >> "Host: apis.juhe.cn[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-3 >> "User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_181)[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-3 >> "Cookie: aliyungf_tc=AQAAAN87k0SEagAAI8intK75jPn8ABWo[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-3 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:03:28  [DEBUG] : http-outgoing-3 >> "[\r][\n]"
+17:03:29  [DEBUG] : http-outgoing-3 << "HTTP/1.1 200 OK[\r][\n]"
+17:03:29  [DEBUG] : http-outgoing-3 << "Date: Tue, 11 Aug 2020 09:03:28 GMT[\r][\n]"
+17:03:29  [DEBUG] : http-outgoing-3 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+17:03:29  [DEBUG] : http-outgoing-3 << "Transfer-Encoding: chunked[\r][\n]"
+17:03:29  [DEBUG] : http-outgoing-3 << "Connection: keep-alive[\r][\n]"
+17:03:29  [DEBUG] : http-outgoing-3 << "Etag: 61af8c7934fd5398f3e724e3b67bf0d0[\r][\n]"
+17:03:29  [DEBUG] : http-outgoing-3 << "[\r][\n]"
+17:03:29  [DEBUG] : http-outgoing-3 << "55[\r][\n]"
+17:03:29  [DEBUG] : http-outgoing-3 << "{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}[\r][\n]"
+17:03:29  [DEBUG] : http-outgoing-3 << "0[\r][\n]"
+17:03:29  [DEBUG] : http-outgoing-3 << "[\r][\n]"
+17:03:29  [DEBUG] : http-outgoing-3 << HTTP/1.1 200 OK
+17:03:29  [DEBUG] : http-outgoing-3 << Date: Tue, 11 Aug 2020 09:03:28 GMT
+17:03:29  [DEBUG] : http-outgoing-3 << Content-Type: application/json;charset=utf-8
+17:03:29  [DEBUG] : http-outgoing-3 << Transfer-Encoding: chunked
+17:03:29  [DEBUG] : http-outgoing-3 << Connection: keep-alive
+17:03:29  [DEBUG] : http-outgoing-3 << Etag: 61af8c7934fd5398f3e724e3b67bf0d0
+17:03:29  [DEBUG] : Connection can be kept alive indefinitely
+17:03:29  [DEBUG] : Connection [id: 3][route: {}->http://apis.juhe.cn:80] can be kept alive indefinitely
+17:03:29  [DEBUG] : http-outgoing-3: set socket timeout to 0
+17:03:29  [DEBUG] : Connection released: [id: 3][route: {}->http://apis.juhe.cn:80][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+17:03:29  [DEBUG] : Connection manager is shutting down
+17:03:29  [DEBUG] : http-outgoing-3: Close connection
+17:03:29  [DEBUG] : Connection manager shut down
+17:03:29  [INFO ] : 测试通过！
+17:03:29  [INFO ] : 外部断言通过
+17:03:29  [INFO ] : 没有匹配到关键字
+17:03:29  [DEBUG] : CookieSpec selected: default
+17:03:29  [DEBUG] : Cookie [version: 0][name: aliyungf_tc][value: AQAAAN87k0SEagAAI8intK75jPn8ABWo][domain: apis.juhe.cn][path: /][expiry: null] match [apis.juhe.cn:80/mobile/get]
+17:03:29  [DEBUG] : Auth cache not set in the context
+17:03:29  [DEBUG] : Connection request: [route: {}->http://apis.juhe.cn:80][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+17:03:29  [DEBUG] : Connection leased: [id: 4][route: {}->http://apis.juhe.cn:80][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+17:03:29  [DEBUG] : Opening connection {}->http://apis.juhe.cn:80
+17:03:29  [DEBUG] : Connecting to apis.juhe.cn/116.211.169.230:80
+17:03:29  [DEBUG] : Connection established 192.168.100.116:63799<->116.211.169.230:80
+17:03:29  [DEBUG] : http-outgoing-4: set socket timeout to 15000
+17:03:29  [DEBUG] : Executing request GET /mobile/get?phone=1530075&key=b2ca8966a54fd47 HTTP/1.1
+17:03:29  [DEBUG] : Target auth state: UNCHALLENGED
+17:03:29  [DEBUG] : Proxy auth state: UNCHALLENGED
+17:03:29  [DEBUG] : http-outgoing-4 >> GET /mobile/get?phone=1530075&key=b2ca8966a54fd47 HTTP/1.1
+17:03:29  [DEBUG] : http-outgoing-4 >> Host: apis.juhe.cn
+17:03:29  [DEBUG] : http-outgoing-4 >> Connection: Keep-Alive
+17:03:29  [DEBUG] : http-outgoing-4 >> User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_181)
+17:03:29  [DEBUG] : http-outgoing-4 >> Cookie: aliyungf_tc=AQAAAN87k0SEagAAI8intK75jPn8ABWo
+17:03:29  [DEBUG] : http-outgoing-4 >> Accept-Encoding: gzip,deflate
+17:03:29  [DEBUG] : http-outgoing-4 >> "GET /mobile/get?phone=1530075&key=b2ca8966a54fd47 HTTP/1.1[\r][\n]"
+17:03:29  [DEBUG] : http-outgoing-4 >> "Host: apis.juhe.cn[\r][\n]"
+17:03:29  [DEBUG] : http-outgoing-4 >> "Connection: Keep-Alive[\r][\n]"
+17:03:29  [DEBUG] : http-outgoing-4 >> "User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_181)[\r][\n]"
+17:03:29  [DEBUG] : http-outgoing-4 >> "Cookie: aliyungf_tc=AQAAAN87k0SEagAAI8intK75jPn8ABWo[\r][\n]"
+17:03:29  [DEBUG] : http-outgoing-4 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:03:29  [DEBUG] : http-outgoing-4 >> "[\r][\n]"
+17:03:29  [DEBUG] : http-outgoing-4 << "HTTP/1.1 200 OK[\r][\n]"
+17:03:29  [DEBUG] : http-outgoing-4 << "Date: Tue, 11 Aug 2020 09:03:28 GMT[\r][\n]"
+17:03:29  [DEBUG] : http-outgoing-4 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+17:03:29  [DEBUG] : http-outgoing-4 << "Transfer-Encoding: chunked[\r][\n]"
+17:03:29  [DEBUG] : http-outgoing-4 << "Connection: keep-alive[\r][\n]"
+17:03:29  [DEBUG] : http-outgoing-4 << "Etag: 3af2b8bbb189b4c22cd9a06e6edd0255[\r][\n]"
+17:03:29  [DEBUG] : http-outgoing-4 << "[\r][\n]"
+17:03:29  [DEBUG] : http-outgoing-4 << "53[\r][\n]"
+17:03:29  [DEBUG] : http-outgoing-4 << "{"resultcode":"101","reason":"[0xe9][0x94][0x99][0xe8][0xaf][0xaf][0xe7][0x9a][0x84][0xe8][0xaf][0xb7][0xe6][0xb1][0x82]KEY","result":null,"error_code":10001}[\r][\n]"
+17:03:29  [DEBUG] : http-outgoing-4 << "0[\r][\n]"
+17:03:29  [DEBUG] : http-outgoing-4 << "[\r][\n]"
+17:03:29  [DEBUG] : http-outgoing-4 << HTTP/1.1 200 OK
+17:03:29  [DEBUG] : http-outgoing-4 << Date: Tue, 11 Aug 2020 09:03:28 GMT
+17:03:29  [DEBUG] : http-outgoing-4 << Content-Type: application/json;charset=utf-8
+17:03:29  [DEBUG] : http-outgoing-4 << Transfer-Encoding: chunked
+17:03:29  [DEBUG] : http-outgoing-4 << Connection: keep-alive
+17:03:29  [DEBUG] : http-outgoing-4 << Etag: 3af2b8bbb189b4c22cd9a06e6edd0255
+17:03:29  [DEBUG] : Connection can be kept alive indefinitely
+17:03:29  [DEBUG] : Connection [id: 4][route: {}->http://apis.juhe.cn:80] can be kept alive indefinitely
+17:03:29  [DEBUG] : http-outgoing-4: set socket timeout to 0
+17:03:29  [DEBUG] : Connection released: [id: 4][route: {}->http://apis.juhe.cn:80][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+17:03:29  [DEBUG] : Connection manager is shutting down
+17:03:29  [DEBUG] : http-outgoing-4: Close connection
+17:03:29  [DEBUG] : Connection manager shut down
+17:03:29  [INFO ] : 测试通过！
+17:03:29  [INFO ] : 外部断言通过
