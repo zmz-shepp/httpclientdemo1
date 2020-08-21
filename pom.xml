@@ -46,7 +46,7 @@
                 <version>2.22.2</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <file>testng.xml</file>
+                        <file>a.xml</file>
                     </suiteXmlFiles>
                     <argLine>-Dfile.encoding=UTF-8</argLine>
                     <argLine>
